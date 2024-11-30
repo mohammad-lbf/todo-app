@@ -1,0 +1,87 @@
+.aside{
+    background-color: #324376;
+    width: 25%;
+    position: fixed;
+    border-radius: 10px;
+    top:5px;
+    right: 5px;
+    height: calc(100vh - 10px);
+    border: 1px solid rgb(224, 224, 224);
+    transition: all 0.2s;
+}
+
+.aside a{
+text-decoration: none;
+margin: 10px 0;
+width: 100%;
+}
+.aside a p{
+    color: rgb(243, 243, 243);
+    margin-right: 5px;
+}
+.desktop-aside-option{
+width: calc(100% - 65px);
+justify-content: space-between;
+padding: 10px 10px;
+margin: auto;
+align-items: center;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.3s;
+}
+.copy-right{
+    color: rgb(243, 243, 243);
+}
+.desktop-aside-option:hover{
+    background-color: rgb(243, 243, 243);
+}
+.desktop-aside-option:hover p{
+    color: #324376;
+}
+.desktop-aside-option .todo-num{
+    background-color: rgb(230, 230, 230);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+}
+.darkmode-option{
+    justify-content: space-between;
+    width: calc(100% - 65px);
+    padding: 10px 12px;
+    align-items: center;
+    margin: 10px 0;
+    color: rgb(243, 243, 243);
+    
+}
+/* darkmode styles */
+
+.darkmode .aside{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(48, 48, 48);
+
+}
+.darkmode .aside a p{
+    color: rgb(240, 240, 240);
+}
+.darkmode .desktop-aside-option:hover{
+    background-color: rgb(49, 49, 49);
+}
+.darkmode .desktop-aside-option .todo-num{
+    background-color: rgb(58, 58, 58);
+    color: rgb(224, 224, 224);
+}
+.darkmode .darkmode-option{
+    color: rgb(240, 240, 240);
+}
+.darkmode .copy-right{
+    color: rgb(209, 209, 209) ;
+}
+@media (min-width:1350px){
+    .aside{
+        width: 22%;
+    }
+}
+

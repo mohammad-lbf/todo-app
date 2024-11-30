@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "14.2.3",
     "react": "^18",
+    "react-bootstrap": "^2.10.6",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-toastify": "^10.0.6",
+    "styled-components": "^6.1.13",
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
     "eslint": "^8",

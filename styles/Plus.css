@@ -1,0 +1,23 @@
+.plus-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgb(212, 212, 212);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    left: 15px;
+    z-index: 104;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s;
+    background-color: #324376;
+}
+.plus-btn:hover{
+    transform: rotateZ(360deg);
+}
+.darkmode .plus-btn{
+    box-shadow: none;
+}

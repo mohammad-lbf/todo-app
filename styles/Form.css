@@ -1,0 +1,56 @@
+.add-form-container{
+    width: 74%;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    min-height: calc(100vh - 90px);
+}
+.add-form{
+    width: calc(100% - 30rem);
+    margin: auto;
+}
+.add-form textarea{
+    height: 150px;
+}
+/* darkmode styles */
+.darkmode .add-form-container{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(48, 48, 48);
+    color: rgb(240, 240, 240);
+}
+.darkmode .add-form input , .darkmode .add-form textarea{
+    background-color: rgb(48, 48, 48);
+    border: 0.5px solid rgb(77, 77, 77);
+    color: rgb(224, 224, 224);
+}
+.submit-work-btn{
+background-color: #324376;
+color: rgb(224, 224, 224);
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+}
+
+@media (max-width:1200px){
+
+    .add-form-container{
+        width: calc(100% - 1rem);
+        margin: 70px auto 0 auto;
+    }
+    .add-form{
+        width: calc(100% - 10rem);
+        margin: auto;
+    }
+}
+@media (min-width:1350px){
+    .add-form-container{
+        width: 77%;
+    }
+}
+@media (max-width:500px){
+    .add-form{
+        width: calc(100% - 3rem);
+        margin: auto;
+    }   
+}

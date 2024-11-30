@@ -1,0 +1,26 @@
+.home{
+    width: 74%;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    min-height: calc(100vh - 90px);
+}
+
+/* darkmode styles */
+.darkmode .home{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(48, 48, 48);
+    color: rgb(240, 240, 240);
+}
+
+@media (max-width:1200px){
+    .home{
+        width: calc(100% - 1rem);
+    }
+}
+@media (min-width:1350px){
+    .home{
+        width: 77%;
+    }
+}

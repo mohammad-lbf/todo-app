@@ -1,0 +1,20 @@
+.main-footer{
+    background-color: #fff;
+    width: 74%;
+    border: 1px solid rgb(224, 224, 224);
+}
+.darkmode .main-footer{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(48, 48, 48);
+    color: rgb(240, 240, 240);
+}
+@media (max-width:1200px){
+    .main-footer{
+        width: calc(100% - 1rem);
+    }
+}
+@media (min-width:1350px){
+    .main-footer{
+        width: 77%;
+    }
+}
